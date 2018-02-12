@@ -14,7 +14,7 @@ server.use(cors());
 
 //routes
 server.get('/',(req,res) => {
-    res.send('Shakalakaboom boom')
+    res.send('Magic is happening')
 })
 server.post('/payload',(req,res) => {
     res.json(req.body)
