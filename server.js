@@ -17,14 +17,8 @@ server.get('/',(req,res) => {
     res.send('Shakalakaboom boom')
 })
 server.post('/payload',(req,res) => {
-    console.log()
     res.json(req.body)
 })
-
-server.get('/user', (req,res) => {
-    res.send('Shakalakaboom boom')
-})
-
 
 
 server.listen(port, err => {
