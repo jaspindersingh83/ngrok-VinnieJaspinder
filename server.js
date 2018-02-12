@@ -16,8 +16,13 @@ server.use(cors());
 server.get('/',(req,res) => {
     res.send('Shakalakaboom boom')
 })
-server.post('/tyrion',(req,res) => {
+server.post('/payload',(req,res) => {
+    console.log()
     res.json(req.body)
+})
+
+server.get('/user', (req,res) => {
+    res.send('Shakalakaboom boom')
 })
 
 
