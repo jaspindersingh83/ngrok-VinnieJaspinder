@@ -17,6 +17,7 @@ server.get('/',(req,res) => {
     res.send('Magic is happening')
 })
 server.post('/payload',(req,res) => {
+    console.log(req.body)
     res.json(req.body)
 })
 
