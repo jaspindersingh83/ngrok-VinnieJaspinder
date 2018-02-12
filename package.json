@@ -5,6 +5,9 @@
   "repository": "https://github.com/jaspindersingh83/ngrok-VinnieJaspinder",
   "author": "JASPINDER SING <jaspindersingh83@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
